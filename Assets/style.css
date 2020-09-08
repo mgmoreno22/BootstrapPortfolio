@@ -1,0 +1,60 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    border-bottom: #ccc solid 1px;
+    background-color: white;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8FD279;
+}
+
+a {
+    color: #8FD279;
+}
+
+#navContainer {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#nameBox {
+    border: 0;
+    padding: 0;
+    background-color: #8FD279;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 5px;
+}
+
+#navList {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 576px) {
+    #nameBox {
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #navList {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+}
+
