@@ -76,11 +76,25 @@ a.nav-link:hover {
 
 /* ---------------END OF NAVBAR CSS------------- */
 
-/* .projectThumb {
-    display: flex;
-    max-width: 300px;
-    height: auto;
-} */
+/* ---------------START OF CONTACT CSS------------- */
+
+#formName, #formEmail, #formMessage {
+    border-radius:.50rem!important
+}
+
+#formSubmit {
+    background-color: #b9271f;
+    border-color: #8f1d17;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius:.50rem!important
+}
+
+#formSubmit:hover {
+    background-color: #771813;
+}
+
+/* ---------------END OF CONTACT CSS------------- */
 
 .projectTitle {
     position: aboslute;
