@@ -87,3 +87,9 @@ a.nav-link:hover {
     text-align: center;
     bottom: 0;
 }
+
+.footerContainer {
+    padding: 16px;
+    background-color: #415D43;
+    color: white;
+}
