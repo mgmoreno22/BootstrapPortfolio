@@ -1,5 +1,6 @@
 body {
     background-color: lightgrey;
+    padding-bottom: 70px;
 }
 
 header {
@@ -22,6 +23,10 @@ p, .copyright {
     padding: 20px;
     margin-top: 20px;
     border-radius:.50rem!important
+}
+
+.contentSubheader {
+    margin-top: 16px;
 }
 
 /* ---------------START OF NAVBAR CSS------------- */
